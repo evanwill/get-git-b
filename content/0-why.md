@@ -50,8 +50,9 @@ Some data formats (`.csv`, `.tsv`, `.json`, `.yml`, `.xml`, etc) are plain text,
 Git can tell *exactly* what changes in a plain text file, but can not understand the insides of a [binary file](https://en.wikipedia.org/wiki/Binary_file).
 It will know when a binary file is changed, but it can not give you the exact differences.
 Thus, Git is not optimal for managing Word docs, PDFs, or other binary files (and can lead to bloated repository sizes).
+You will generally want to actively edit and track those types of files in a different platform.
 
-Instead of using proprietary formats, consider a plain text writing workflow using [Markdown](https://evanwill.github.io/_drafts/notes/markdown-minute.html) or [LaTeX](https://www.latex-project.org/about/)--it simplifies your life, makes writing easier and more [sustainable](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)!
+If you are creating documentation or content writing, consider using a plain text writing workflow using [Markdown](https://evanwill.github.io/_drafts/notes/markdown-minute.html) or [LaTeX](https://www.latex-project.org/about/) instead of a proprietary document format--it simplifies your life, makes writing easier and more [sustainable](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)!
 {% endcapture %}
 {% include card.html text=plain-text header="Plain Text Workflow" %}
 
