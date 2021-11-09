@@ -14,7 +14,7 @@ title: Get Git!
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
-# some options: code-slash file-code gear tools lightblub book bookmark-star file-earmark-code git
+# some options: code-slash file-code gear tools lightbulb book bookmark-star file-earmark-code git exclamation-circle
 title-icon: git
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO

@@ -1,2 +1,3 @@
 /* add your tweaks here! */
-// body { background-color: #fdf7ef; } 
+.bg-light { background-color: #fdf7ef!important; } 
+.navbar-light .navbar-nav .nav-link { color: $text-color; }
