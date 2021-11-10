@@ -59,7 +59,7 @@ In this case we have a folder (the name of your repository) with a single file "
 
 You will notice that by default the contents of the "README.md" file are displayed on the home page of your repository. 
 This is a convention used in many code projects--<span class="term">README</span> is a place to write the basics *about* your repository so users will understand what it contains, who made it, and any other information they should know. 
-On GitHub READMEs are usually written in Markdown (thus the `.md` extension). 
+On GitHub READMEs are usually written in [Markdown](#markdown) (thus the `.md` extension). 
 
 Let's edit the "README.md" file using the web editor:
 
@@ -96,7 +96,7 @@ Now that we have a few commits, let's view the history of the repository:
 ### Other Features
 
 Every GitHub repo has handy project management features built in. 
-Take a minute to explore the Issues, Projects (trello board-like), Wiki, Insights, and Settings tabs of your repository. 
+Take a minute to explore the Issues, Projects (trello board-like), Wiki, Insights, and Settings tabs of your repository: 
 
 - Issues can be used to track work, ideas, bugs, and task lists. Can be used in conjunction with Projects (trello board-like task lists) to manage project development.
 - Wiki can be used to document your repository.
@@ -104,12 +104,29 @@ Take a minute to explore the Issues, Projects (trello board-like), Wiki, Insight
 - Settings tab:
     - "Manage access" is used to add collaborators using their GitHub user name.
     - To delete a repository scroll down to the bottom to find the delete button.
+- [github.dev Web Editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) is a browser-based text editor that you can open to edit any repository by pressing `.` or changing the URL from "github.com" to "github.dev". It basically a light-weight version of [Visual Studio Code](https://code.visualstudio.com/) that can be used without installing anything. 
 
 {% capture resources %}
 ### GitHub
 
 - [GitHub Guides](https://guides.github.com/){:target="_blank" rel="noopener"} provide handy reference, see [Hello World](https://guides.github.com/activities/hello-world/){:target="_blank" rel="noopener"} for an introduction.
 - [GitHub Learning Lab](https://lab.github.com/){:target="_blank" rel="noopener"} provides in depth interactive lessons.
+- [GitHub Education](https://education.github.com/) provides resources and benefits for educational use of GitHub.
+
+### GitHub Organizations
+
+A [GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) is a useful tool to collaborate with a group or to brand, organize, and manage a set of related repositories as a group.
+Orgs can help ensure continuity in situations when members may move on from a project or lab.
+
+GitHub organizations are NOT a separate account or profile, but are a group of users, i.e. you can’t log in as an Org. 
+One or more persons can be the Owner with full admin control over the org including managing members.
+
+To start an organization, click the plus sign icon on the upper right of the GitHub menu bar and select "Create organization". 
+Once created, add members!
+
+Now, when creating a new repository, all members can use the "owner" dropdown option to create the repository under the organization (instead of their own account).
+Repositories owned by the Org will be accessible and managed by the Owner accounts. 
+They stay with the Org even if the original creator leaves the Org.
 
 ### Markdown 
 

@@ -1,8 +1,8 @@
 ---
-title: Git Command Cheatsheet
+title: Get Git Cheatsheet
 ---
 
-## Command Quick Ref
+## Git Command Quick Ref
 
 | Command | Description |
 | ---- | ---- |
@@ -16,8 +16,9 @@ title: Git Command Cheatsheet
 | `git push` | Upload commits to the remote repo |
 | `git log` | Review the repo history |
 | `git diff` | Compare differences between current files and history |
+{:.table .my-4}
 
-## Commandline Navigation
+## Command Line Navigation
 
 | Command | Description |
 | :- | :-
@@ -28,3 +29,4 @@ title: Git Command Cheatsheet
 | `cd ..` | back one level |
 | `cd ~` | switch to "Home" directory |
 | `mkdir FOLDER` | "make directory", create a new directory called "FOLDER" |
+{:.table .my-4}
