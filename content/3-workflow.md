@@ -133,6 +133,23 @@ Push sends only the changes, so it is very efficient network use.
 Using `origin main` specifies which branch we want to push to in the remote repository. 
 However, in most cases the command can be shortened to just `git push`.
 
+Once you have a successful push, refresh your repository home page on GitHub to see the new commits!
+
+## git pull
+
+In this demo we started with `git clone` to make a copy of our repository from GitHub on our local machine.
+Once you already have the repository on your computer, you will still need to keep it up-to-date from the remote. 
+To do that, we use the command `git pull`. 
+
+Try this example:
+
+- On your repository on GitHub, make a new commit using the web editor. You will now have history on the remote that is *not* in your local repository. 
+- In your terminal in your local repository try `git status`. Notice that the local does not know about the new changes.
+- In your terminal type `git pull`
+
+Depending on your workflow, you may want to `git fetch` rather than `pull`.
+The command `git fetch` updates repository from remote, but does not change the local files--while `git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work, updating the files on your computer.
+
 ## Review 
 
 ```
@@ -146,6 +163,3 @@ git commit -m "message"
 
 git push 
 ```
-
-Depending on your workflow, you may want to `git fetch` rather than `pull`.
-The command `git fetch` updates repository from remote, but does not change the local files--while `git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work, updating the files on your computer.
