@@ -16,13 +16,16 @@ git log
 git log --oneline
 ```
 
-> When a long text display fills the terminal window, navigate up and down using the arrow keys or Page Down key. 
-> To exit the display, type `q`.
+When a long text display fills the terminal window, navigate up and down using the arrow keys or Page Down key. 
+To exit the display, type `q`.
+
+Compare this display to the "Commits" page on your GitHub repository. 
+It is often a easier to review your history on GitHub visually!
 
 ## git diff
 
 We can compare files with the history.
-Modify one of the file in your repository using a text editor or the command line.
+Modify one of the files in your repository using a text editor or the command line.
 
 ```
 echo "more important notes!" >> notes.txt
@@ -44,7 +47,9 @@ git diff
 
 `diff` allows us to see what changes were made to the currently unstaged files. 
 It's best to check this before you commit to ensure you know what you are changing.
+
 Many text editors have a diff visualization built in, which is very handy!
+This can help you understand exactly what is changed and debug problems in your work.
 
 ## git checkout
 
