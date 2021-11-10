@@ -5,7 +5,9 @@ nav: Why?
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`? 
 
-{% include figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+{% include figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'FINAL.doc' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+
+{% include figure.html img="phd052810s.gif" alt="file explorer window shows long series of filenames with adjectives added on" caption="'A story told in file names' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://phdcomics.com/comics/archive.php?comicid=1323' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
 
 This is a sort of "local version control system" which depends on your memory and organization to avoid errors and utter confusion.
 Luckily, we have software that can handle this task, from the basic "track changes" to big centralized systems such as [SVN](https://subversion.apache.org/).
