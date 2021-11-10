@@ -148,5 +148,4 @@ git push
 ```
 
 Depending on your workflow, you may want to `git fetch` rather than `pull`.
-`git fetch` updates repository from remote, but does not change the local files.
-`git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work, updating the files on your computer.
+The command `git fetch` updates repository from remote, but does not change the local files--while `git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work, updating the files on your computer.
