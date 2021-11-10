@@ -48,7 +48,7 @@ You are ready to go!
 
 {% include figure.html img="gitbash.png" alt="git bash terminal window" %}
 
-Check the [command line navigation cheatsheet]({{ '/content/cheatsheet.html#commandline-navigation' | relative_url }}) or this [mini-lesson](https://evanwill.github.io/_drafts/notes/commandline.html){:target="_blank" rel="noopener"} if you need a refresher.
+Check the [command line navigation cheatsheet]({{ '/content/cheatsheet.html#command-line-navigation' | relative_url }}) or this [mini-lesson](https://evanwill.github.io/_drafts/notes/commandline.html){:target="_blank" rel="noopener"} if you need a refresher.
 
 ## Git Setup
 
