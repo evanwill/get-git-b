@@ -150,6 +150,9 @@ Try this example:
 Depending on your workflow, you may want to `git fetch` rather than `pull`.
 The command `git fetch` updates repository from remote, but does not change the local files--while `git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work, updating the files on your computer.
 
+It is important to pull or fetch *before* you start working locally!
+You want to have the most up-to-date version of the history on your computer to avoid confusing merges (and general frustration).
+
 ## Review 
 
 ```
