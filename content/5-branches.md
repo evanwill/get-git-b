@@ -1,6 +1,7 @@
 ---
 title: Using Branches and Forks
 nav: Branches
+youtubeid: 2tclc8yTV-s
 ---
 
 [Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){:target="_blank" rel="noopener"} is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the main copy.

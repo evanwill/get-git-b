@@ -7,6 +7,8 @@ layout: default
 
 ## Introduction to Version Control with Git and GitHub
 
+{% include button.html link="https://www.youtube.com/playlist?list=PL3MdArvT5LVcEa7pM6OPNvuWn3gX2vyJk" text="2021 Workshop Video Playlist on YouTube" color="outline-primary" centered=true size="lg" %}
+
 {% include figure.html img="xkcd_git_2x.png" alt="xkcd Git comic" caption="<a href='https://xkcd.com/1597/' target='_blank' rel='noopener'>Git, xkcd</a>" width="75%" %}
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`?

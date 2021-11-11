@@ -1,6 +1,7 @@
 ---
 title: Basic Git Workflow
 nav: Workflow
+youtubeid: vYL4SSaz2kw
 ---
 
 In general, the basic Git routine is:

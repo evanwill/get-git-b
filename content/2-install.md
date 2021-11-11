@@ -1,6 +1,7 @@
 ---
 title: Install and Setup Git
 nav: Git
+youtubeid: aErB_K7ZvMs
 ---
 
 In the last section we created a new project on GitHub--the next step is to `clone` that repository to our local machine to start working on it.

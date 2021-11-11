@@ -1,6 +1,7 @@
 ---
 title: Exploring Git History
 nav: History
+youtubeid: l1k2h2h81x4
 ---
 
 So Git stores away all this history, what can we do with it?
