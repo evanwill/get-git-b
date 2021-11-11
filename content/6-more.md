@@ -12,6 +12,13 @@ nav: Resources
 - Bitbucket [Git Tutorials](https://www.atlassian.com/git/tutorials){:target="_blank" rel="noopener"}
 - Get Git [command quick ref]({{ '/content/cheatsheet.html' | relative_url }})
 
+## Citable Code
+
+GitHub repos can be integrated with Zenodo to issue a DOI. 
+DOI are a persistent identifier used in academic writing to cite articles and other works. 
+Having a DOI for your code makes it easier to track citations and impact. 
+Learn how at [Making Your Code Citable](https://guides.github.com/activities/citable-code/){:target="_blank" rel="noopener"}.
+
 ## GUI 
 
 There are a variety of [GUI apps available](https://git-scm.com/downloads/guis){:target="_blank" rel="noopener"} for managing and visualizing Git repositories.
