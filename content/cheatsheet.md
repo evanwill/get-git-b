@@ -22,10 +22,10 @@ title: Get Git Cheatsheet
 
 | Command | Description |
 | :- | :-
-| `pwd` | "print working directory", tells you where you are |
-| `ls` | Lists the files and folders in your current  location |
+| `pwd` | "print working directory", tells you where you are. On Git Bash, use `pwd -W` to print the Windows style file path. |
+| `ls` | Lists the files and folders in your current location |
 | `ls -a` | List all, including hidden directories |
-| `cd` | "change directory", move to a new folder |
+| `cd` | "change directory", move to a new folder. Note: on Git Bash you can get to the main Windows file system at using `cd /c/`, i.e. `/c/` = `C:/`. |
 | `cd ..` | back one level |
 | `cd ~` | switch to "Home" directory |
 | `mkdir FOLDER` | "make directory", create a new directory called "FOLDER" |
