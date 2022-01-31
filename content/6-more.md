@@ -11,6 +11,7 @@ nav: Resources
 - Software Carpentry [Unix Shell](http://swcarpentry.github.io/shell-novice/01-intro/){:target="_blank" rel="noopener"} and [Version Control with Git](http://swcarpentry.github.io/git-novice/){:target="_blank" rel="noopener"} lessons
 - Bitbucket [Git Tutorials](https://www.atlassian.com/git/tutorials){:target="_blank" rel="noopener"}
 - Get Git [command quick ref]({{ '/content/cheatsheet.html' | relative_url }})
+- [Learn Git Branching](https://learngitbranching.js.org/){:target="_blank" rel="noopener"}
 
 ## Citable Code
 
