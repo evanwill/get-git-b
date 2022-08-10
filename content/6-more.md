@@ -25,5 +25,4 @@ Learn how at [Making Your Code Citable](https://guides.github.com/activities/cit
 There are a variety of [GUI apps available](https://git-scm.com/downloads/guis){:target="_blank" rel="noopener"} for managing and visualizing Git repositories.
 However, one of the most handy methods is to use a good text editor with Git support built in. 
 
-- [Atom](https://atom.io/){:target="_blank" rel="noopener"}, with [git packages](https://atom.io/packages/search?q=git){:target="_blank" rel="noopener"}
-- [Visual Studio Code](https://code.visualstudio.com/){:target="_blank" rel="noopener"}
+- [Visual Studio Code](https://code.visualstudio.com/){:target="_blank" rel="noopener"}, version control pane appears in the left sidebar tools providing easy access to all Git commands using a visual interface. A web-based version of VS Code can be accessed from any GitHub repository by clicking "." period.
