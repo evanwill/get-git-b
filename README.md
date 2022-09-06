@@ -4,7 +4,7 @@
 
 <https://evanwill.github.io/get-git-b>
 
-## Introduction to version control with Git and GitHub 
+## Introduction to Version Control with Git and GitHub 
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`?
 Version control WILL make your life better! 
