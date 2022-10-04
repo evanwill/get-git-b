@@ -77,7 +77,7 @@ To checkout a remote branch:
 To push a new local branch to the remote:
 
 - Create and switch to a new branch, `git checkout -b branch-name`. 
-- To add the branch to the remote, `git push origin branch-name` will create the remote branch and set the "upstream" for the local version.
+- To add the branch to the remote, `git push -u origin branch-name` will create the remote branch and set the "upstream" for the local version. Once you run that command once, the "tracking branch" will be set, so going forward you can just use `git push` and `git pull`.
 
 Keep in mind that if you `git pull` in one branch, it *does not* update other branches in your local repository!
 If you are working on multiple remote branches with updates, you will have to do a fresh `git pull` when you check out a branch.
