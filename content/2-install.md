@@ -82,6 +82,10 @@ If you are stuck in Vim and can't figure out how to escape, type `Esc` then `:wq
 
 With our test repository ready on GitHub and Git configured on your computer, we can move on to the basic [Git workflow]({{ '/content/3-workflow.html' | relative_url }})!
 
+*Note:* one more config you might run in to is for pull. 
+Recent Git installations do not have a default behavior set for `git pull`, so the first time you encounter a conflict and merge, you will get a big error message asking which approach you want to use (merge or rebase). 
+To avoid this, you can set the old default behavior in your config, which is `git config --global pull.rebase false`.
+
 {% capture local %}
 ## Create Repository Locally
 
