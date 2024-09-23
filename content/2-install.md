@@ -86,6 +86,21 @@ With our test repository ready on GitHub and Git configured on your computer, we
 Recent Git installations do not have a default behavior set for `git pull`, so the first time you encounter a conflict and merge, you will get a big error message asking which approach you want to use (merge or rebase). 
 To avoid this, you can set the old default behavior in your config, which is `git config --global pull.rebase false`.
 
+{% capture auth %}
+## Authentication 
+
+When you push to GitHub or other platforms you will need to authenticate. 
+The exact details of authenticating from the terminal will depend on the platform, security settings, and your operating system.
+
+- On Windows git will come with a builtin credential manager--the first time you try to `push` you should be redirected to your web browser to authorize on GitHub. 
+- On Mac (and Windows) GitHub Desktop or Visual Studio Code also bundle a git credential manager--however, you may need to make your first push on on those tools to initially set up authorization, then it will work on the terminal as well. 
+- On Linux you will probably want to [manually set up a credential manager](https://evanwill.github.io/_drafts/notes/git-credential.html).
+
+Check the [authentication docs on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line) for more info.
+
+{% endcapture %}
+{% include card.html text=auth %}
+
 {% capture local %}
 ## Create Repository Locally
 

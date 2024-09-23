@@ -134,23 +134,16 @@ Push sends only the changes, so it is very efficient network use.
 Using `origin main` specifies which branch we want to push to in the remote repository. 
 However, in most cases the command can be shortened to just `git push`.
 
-The first time you try to `push` you will probably need to setup [authentication on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line), see below for more info.
-
 Once you have a successful push, refresh your repository home page on GitHub to see the new commits!
 
 {% capture auth %}
 ### Authentication 
 
-When you push to GitHub or other platforms you will need to authenticate. 
-The exact details of authenticating from the terminal will depend on the platform, security settings, and your operating system.
-
-On Windows installing git will come with a builtin credential manager--the first time you try to `push` you should be redirected to your web browser to authorize. 
-On Windows and Mac installing GitHub Desktop or Visual Studio Code will also bundle a credential manager--you may need to make your first push on on those tools to set up authorization, then it will work on the terminal as well. 
-
-On Linux you will probably want to [manually set up a credential manager](https://evanwill.github.io/_drafts/notes/git-credential.html).
-
+The *first time* you try to `push` you will probably need to setup [authentication on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line){:.alert-link}.
+On Windows and Mac this is usually pretty seamless and will automatically pop up a web browser to sign in and authorize your computer to push.
+Check the [authentication notes on the setup page]({{ '/content/2-install.html#authentication' | relative_url }}){:.alert-link} for more information.
 {% endcapture %}
-{% include alert.html text="auth" color="warning" %}
+{% include alert.html text=auth color="warning" %}
 
 ## git pull
 
