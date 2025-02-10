@@ -101,6 +101,20 @@ Check the [authentication docs on GitHub](https://docs.github.com/en/authenticat
 {% endcapture %}
 {% include card.html text=auth %}
 
+{% capture ignore %}
+## Global Ignore (especially for Mac users!)
+
+We can create [".gitignore"]({{ '/content/4-history.html#gitignore' | relative_url }}) files for individual repositories to exclude things from version control. 
+However, there are some system files that you do NOT want to commit in any repository. 
+Out of the box git generally ignores these, however, occasionally things can come up that you will want to globally ignore.
+The most common is ".DS_Store" on Mac--if you are seeing ".DS_Store" show up in your changes, follow these steps:
+
+1. Create a ".gitignore_global" file in your home directory with the name of the file you want to ignore. This can be done with the command: `echo '.DS_Store' >> ~/.gitignore_global`
+2. Configure git to use that file globally: `git config --global core.excludesfile ~/.gitignore_global`
+
+{% endcapture %}
+{% include card.html text=ignore %}
+
 {% capture local %}
 ## Create Repository Locally
 
