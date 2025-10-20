@@ -2,11 +2,12 @@
 title: Using Branches and Forks
 nav: Branches
 youtubeid: 2tclc8yTV-s
+gallery: true
 ---
 
 [Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the main copy.
 
-{% include figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' >Version Control with Git</a>" width="100%" %}
+{% include gallery-figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' >Version Control with Git</a>" width="100%" %}
 
 A branch is an exact copy of the repository that starts off with its own independent history (without needing to actually copy all the files). 
 In a new branch, you can experiment, debug, or wildly modify your repository--all while your main branch is safely tucked away by Git.

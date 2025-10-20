@@ -2,6 +2,7 @@
 title: Basic Git Workflow
 nav: Workflow
 youtubeid: vYL4SSaz2kw
+gallery: true
 ---
 
 In general, the basic Git routine is:
@@ -19,7 +20,7 @@ Spoiler: We are going to repeat the pattern above over and over!
 We will refer back to this sketch to try to make sense of the basic commands as we walk through.
 
 {:.border .rounded }
-{% include figure.html img="workflow.png" alt="git workflow depicted as arrows between file areas" width="100%" caption="An <a href='https://evanwill.github.io/get-git-b/images/workflow.png' ><em>artist's</em> depiction of Git workflow parts</a>" %}
+{% include gallery-figure.html img="workflow.png" alt="git workflow depicted as arrows between file areas" width="100%" caption="An <a href='https://evanwill.github.io/get-git-b/images/workflow.png' ><em>artist's</em> depiction of Git workflow parts</a>" %}
 
 **Always remember: Git has good built in help, so add `--help` to the end of any command to learn more.**
 
