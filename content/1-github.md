@@ -4,13 +4,23 @@ nav: GitHub
 youtubeid: vgQw2umuq_Q
 ---
 
+## The Remote
+
+Before jumping into Git (the version control system) we are going to start by creating a <span class="term">Remote repository</span> (a folder of files tracked together by Git, hosted online) on a Git hosting service (GitHub). 
+
+Using a remote is where the distributed part of Git gets really cool. 
+With a central repo hosted on the web, you can easily collaborate with anyone in the world, or yourself across multiple computers, and never get out of sync with your project!
+
+There are a variety of repository hosting platforms and self hosted options--including [Codeberg](http://codeberg.org/) (newer, non-profit model platform), [Bitbucket](https://bitbucket.org/) (Atlassian platform), [Gitlab](https://about.gitlab.com/) (independent platform), and [Gitea](https://about.gitea.com/) (self-hosted platform)--however, by far the most popular at this time is <span class="term">[GitHub](https://github.com/)</span> (closed source, owned by Microsoft).
+This workshop will focus on GitHub, however, the workflows are transferable to any git hosting service!
+
+Be aware that all these platforms are undergoing significant change with the explosion of AI coding and AI service offerings. 
+The space is getting a lot more complex to navigate with many platforms pivoting to AI offerings...
+
 ## What is GitHub?
 
-<span class="term">[GitHub](https://github.com/)</span> is a popular web service for hosting Git repositories--a place to store and sync your work in the cloud, with benefits!
+[GitHub](https://github.com/) is a popular web service for hosting Git repositories--a place to store and sync your work in the cloud, with benefits!
 It provides a handy web interface for editing and collaborating on repos, including built in project management features, user access controls, static web hosting, and other useful features.
-
-GitHub is where the distributed part of Git gets really cool. 
-With a central repo hosted on GitHub, you can easily collaborate with anyone in the world, or yourself across multiple computers, and never get out of sync with your project!
 
 **Just keep in mind that Git (version control system) and GitHub (web hosting platform) are two separate things!**
 
