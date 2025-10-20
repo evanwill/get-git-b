@@ -67,5 +67,5 @@ There are lots of fancy and complex things Git can do--but the basics are truly 
 
 To provide a solid understanding of these basics, this workshop introduces the workflow using Git on the command line. 
 Once you start regularly working with Git repos, you will likely use GUI helpers integrated into your text editor or stand alone apps such as GitHub Desktop. 
-However, a good understanding of the fundamentals will help clarify how these tools and the file system work.
+However, a good understanding of the fundamentals will help clarify how these tools and the file system work, and will be applicable across any GUI tool you use.
 So, while learning on the command line might sound intimidating, it will pay off in the end!
