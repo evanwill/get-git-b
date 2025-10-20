@@ -2,13 +2,14 @@
 title: What is Version Control?
 nav: Why?
 youtubeid: L_S-ofOpDmg
+gallery: true
 ---
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`? 
 
-{% include figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'FINAL.doc' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+{% include gallery-figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'FINAL.doc' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
 
-{% include figure.html img="phd052810s.gif" alt="file explorer window shows long series of filenames with adjectives added on" caption="'A story told in file names' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://phdcomics.com/comics/archive.php?comicid=1323' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+{% include gallery-figure.html img="phd052810s.gif" alt="file explorer window shows long series of filenames with adjectives added on" caption="'A story told in file names' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://phdcomics.com/comics/archive.php?comicid=1323' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
 
 This is a sort of "local version control system" which depends on your memory and organization to avoid errors and utter confusion.
 Luckily, we have software that can handle this task, from the basic "track changes" to big centralized systems such as [SVN](https://subversion.apache.org/).
@@ -30,7 +31,7 @@ This is great for collaboration, fast performance, and offline usage.
 Rather than storing a series of copies of a file with different filenames or revision numbers in the repo, Git captures a snapshot of your complete project each time you tell it to <span class="term">commit</span>.
 Each commit records the creator, email, time, and changes made, then stores it permanently in the history.
 
-{% include figure.html img="versions.png" alt="depiction of file + new changes = versions of a document" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank' rel='noopener'>Version Control with Git</a>" width="100%" %}
+{% include gallery-figure.html img="versions.png" alt="depiction of file + new changes = versions of a document" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/'>Version Control with Git</a>" width="100%" %}
 
 Try to think of your changes recorded in each commit as separate from the document itself.
 From Git's point of view, the current file that you see in your folder is made up of a specific set of those changes.
@@ -38,7 +39,7 @@ It can reconstruct other versions by jumping to earlier commits, while the compl
 
 This allows Git to efficiently branch, compare, and merge different sets of changes together, enabling people to work in parallel and sync their files.
 
-{% include figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank' rel='noopener'>Version Control with Git</a>" width="100%" %}
+{% include gallery-figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank' rel='noopener'>Version Control with Git</a>" width="100%" %}
 
 When committing to a repository Git only adds data, it never deletes information. 
 This makes almost everything undoable.
