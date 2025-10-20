@@ -19,7 +19,7 @@ Spoiler: We are going to repeat the pattern above over and over!
 We will refer back to this sketch to try to make sense of the basic commands as we walk through.
 
 {:.border .rounded }
-{% include figure.html img="workflow.png" alt="git workflow depicted as arrows between file areas" width="100%" caption="An <a href='https://evanwill.github.io/get-git-b/images/workflow.png' target='_blank' rel='noopener'><em>artist's</em> depiction of Git workflow parts</a>" %}
+{% include figure.html img="workflow.png" alt="git workflow depicted as arrows between file areas" width="100%" caption="An <a href='https://evanwill.github.io/get-git-b/images/workflow.png' ><em>artist's</em> depiction of Git workflow parts</a>" %}
 
 **Always remember: Git has good built in help, so add `--help` to the end of any command to learn more.**
 
@@ -85,7 +85,7 @@ Let's `commit`!
 Each `commit` records the state of the full repository along with the timestamp, user name, email, and message of the committer.
 
 *A message is required!*
-It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit){:target="_blank" rel="noopener"}).
+It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit)).
 
 ```
 git commit -m "add notes file"

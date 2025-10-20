@@ -12,7 +12,7 @@ To do that, you will need Git installed on your computer.
 Installing this free and open source software is pretty straightforward:
 
 {% capture windows %}
-Download and run the [Git for Windows](https://git-scm.com/downloads){:target="_blank" rel="noopener"} installer. 
+Download and run the [Git for Windows](https://git-scm.com/downloads) installer. 
 Using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". 
 
 This package will give you Git, Git Bash, and Git GUI. 
@@ -22,7 +22,7 @@ Git Bash is a terminal that lets you use UNIX style commands and utilities on Wi
 Choose one of these options:
 
 - Installing the "Xcode Command Line Tools" will provide Git and a variety of other developer helpers. Open a terminal (to find your terminal search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. 
-- For newest version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank" rel="noopener"}.
+- For newest version of Git, download the official [Mac git installer](https://git-scm.com/downloads).
 {% endcapture %}
 {% capture linux %}
 Your distribution's software center or package manager will be able to install Git (it is pre-installed on many distros, check by typing `git --version` into a terminal).
@@ -49,7 +49,7 @@ You are ready to go!
 
 {% include figure.html img="gitbash.png" alt="git bash terminal window" %}
 
-Check the [command line navigation cheatsheet]({{ '/content/cheatsheet.html#command-line-navigation' | relative_url }}) or this [mini-lesson](https://evanwill.github.io/_drafts/notes/commandline.html){:target="_blank" rel="noopener"} if you need a refresher.
+Check the [command line navigation cheatsheet]({{ '/content/cheatsheet.html#command-line-navigation' | relative_url }}) or this [mini-lesson](https://evanwill.github.io/_drafts/notes/commandline.html) if you need a refresher.
 
 ## Git Setup
 
@@ -63,7 +63,7 @@ git config --global user.name "example name"
 git config --global user.email "myemail@gmail.com"
 ```
 
-(If you set [set up email privacy](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#about-commit-email-addresses){:target="_blank" rel="noopener"} on GitHub, remember to use the correct email alias!)
+(If you set [set up email privacy](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#about-commit-email-addresses) on GitHub, remember to use the correct email alias!)
 
 Next, set your default text editor. 
 The current versions of the Git for Windows installer allow you to set the default editor during setup, so Windows users should not need to complete this step.
@@ -78,7 +78,7 @@ git config --global core.editor "nano -w"
 Git opens the default editor to ask for commit messages if you did not provide one--which you are most likely to encounter it when merging.
 
 The default default is Vim, which can be confusing...
-If you are stuck in Vim and can't figure out how to escape, type `Esc` then `:wq` then `Enter` to save and quit ([VIM quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php){:target="_blank" rel="noopener"}, and don't worry, you are [not alone in confusion](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank" rel="noopener"}).
+If you are stuck in Vim and can't figure out how to escape, type `Esc` then `:wq` then `Enter` to save and quit ([VIM quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php), and don't worry, you are [not alone in confusion](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/)).
 
 With our test repository ready on GitHub and Git configured on your computer, we can move on to the basic [Git workflow]({{ '/content/3-workflow.html' | relative_url }})!
 

@@ -4,9 +4,9 @@ nav: Branches
 youtubeid: 2tclc8yTV-s
 ---
 
-[Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){:target="_blank" rel="noopener"} is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the main copy.
+[Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) is a Git fundamental that allows you to test out ideas in parallel to your main repository without disrupting the main copy.
 
-{% include figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank' rel='noopener'>Version Control with Git</a>" width="100%" %}
+{% include figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' >Version Control with Git</a>" width="100%" %}
 
 A branch is an exact copy of the repository that starts off with its own independent history (without needing to actually copy all the files). 
 In a new branch, you can experiment, debug, or wildly modify your repository--all while your main branch is safely tucked away by Git.
@@ -36,7 +36,7 @@ Once you have branches, you may want to `merge` them back together, combining th
 
 Luckily, Git has tools to automate merging. 
 If it encounters a line that can not be automatically merged, Git will mark the file for you to manually fix before proceeding.
-For details, check the Git Book [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){:target="_blank" rel="noopener"} or [GitHub resolve merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line){:target="_blank" rel="noopener"}.
+For details, check the Git Book [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) or [GitHub resolve merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line).
 
 First, create a new branch and add some new commits:
 
@@ -87,7 +87,7 @@ Rather than merging branches on your local machine, you can use GitHub's ["Pull 
 
 ## Branch Workflows
 
-Using branches strategically figures into many collaboration workflows, such as [Github flow](https://guides.github.com/introduction/flow/){:target="_blank" rel="noopener"}.
+Using branches strategically figures into many collaboration workflows, such as [Github flow](https://guides.github.com/introduction/flow/).
 
 Often, the main branch is considered functioning, production ready code. 
 Additional branches are created to develop and test new features.
@@ -95,7 +95,7 @@ When the new features are ready, the development branch can be merged into the m
 
 Even on small, personal projects, using branches for all development can be an excellent approach to protect the history of your main branch and keep organized.
 
-For an overview of workflows that might help your team collaborate, check BitBucket's [Git Workflow Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows){:target="_blank" rel="noopener"}.
+For an overview of workflows that might help your team collaborate, check BitBucket's [Git Workflow Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
 ## GitHub Fork and Pull Request
 
@@ -108,7 +108,7 @@ You can add branches and commits to your fork just like any other repository.
 Once your changes are ready, much like merging a branch, you can ask the owners of the original repository to pull in your commits using a "Pull Request".
 
 Understanding how to fork and create a PR will allow you to contribute to open source or manage a centralized project for your team.
-Check the [Forking Projects](https://guides.github.com/activities/forking/){:target="_blank" rel="noopener"} guide for an demo example, or the [BitBucket PR tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request){:target="_blank" rel="noopener"}.
+Check the [Forking Projects](https://guides.github.com/activities/forking/) guide for an demo example, or the [BitBucket PR tutorial](https://www.atlassian.com/git/tutorials/making-a-pull-request).
 
 Many projects will have a contributing guide, details are often listed in a file named `CONTRIBUTING`, to help you understand how they handle PRs or Issues.
-For more information, check the [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/){:target="_blank" rel="noopener"} guide.
+For more information, check the [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) guide.

@@ -7,9 +7,9 @@ gallery: true
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`? 
 
-{% include gallery-figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'FINAL.doc' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+{% include gallery-figure.html img="phd101212s.gif" alt="final doc comic showing string of many filenames to denote versions" caption="'FINAL.doc' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' >www.phdcomics.com</a>" width="70%" %}
 
-{% include gallery-figure.html img="phd052810s.gif" alt="file explorer window shows long series of filenames with adjectives added on" caption="'A story told in file names' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://phdcomics.com/comics/archive.php?comicid=1323' target='_blank' rel='noopener'>www.phdcomics.com</a>" width="70%" %}
+{% include gallery-figure.html img="phd052810s.gif" alt="file explorer window shows long series of filenames with adjectives added on" caption="'A story told in file names' from 'Piled Higher and Deeper' by Jorge Cham <a href='http://phdcomics.com/comics/archive.php?comicid=1323' >www.phdcomics.com</a>" width="70%" %}
 
 This is a sort of "local version control system" which depends on your memory and organization to avoid errors and utter confusion.
 Luckily, we have software that can handle this task, from the basic "track changes" to big centralized systems such as [SVN](https://subversion.apache.org/).
@@ -21,7 +21,7 @@ Version control **WILL** make your life better!
 
 ## What is Git?
 
-<span class="term">Git</span> is a [free](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank" rel="noopener"}, <span class="term">[distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control){:target="_blank" rel="noopener"}</span> originally developed for coordinating huge software development projects (specifically the [Linux kernel](https://www.kernel.org/){:target="_blank" rel="noopener"}). 
+<span class="term">Git</span> is a [free](https://en.wikipedia.org/wiki/Free_and_open-source_software), <span class="term">[distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control)</span> originally developed for coordinating huge software development projects (specifically the [Linux kernel](https://www.kernel.org/)). 
 However, it is fast and flexible enough to be used on any scale project (be it your personal notes, your research lab's code, your enterprise software source code, or your detailed plans for an intergalaxic empire)--and offers many benefits beyond "track changes".
 
 When using Git, your project will be stored in a normal folder of files (on your computer or in the cloud), called a Git <span class="term">repository</span> (or "repo" for short).
@@ -39,7 +39,7 @@ It can reconstruct other versions by jumping to earlier commits, while the compl
 
 This allows Git to efficiently branch, compare, and merge different sets of changes together, enabling people to work in parallel and sync their files.
 
-{% include gallery-figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank' rel='noopener'>Version Control with Git</a>" width="100%" %}
+{% include gallery-figure.html img="branch-merge.png" alt="arrows depict branch and merge of document versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' >Version Control with Git</a>" width="100%" %}
 
 When committing to a repository Git only adds data, it never deletes information. 
 This makes almost everything undoable.

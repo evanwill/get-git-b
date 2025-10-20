@@ -6,7 +6,7 @@ youtubeid: vgQw2umuq_Q
 
 ## What is GitHub?
 
-<span class="term">[GitHub](https://github.com/){:target="_blank" rel="noopener"}</span> is a popular web service for hosting Git repositories--a place to store and sync your work in the cloud, with benefits!
+<span class="term">[GitHub](https://github.com/)</span> is a popular web service for hosting Git repositories--a place to store and sync your work in the cloud, with benefits!
 It provides a handy web interface for editing and collaborating on repos, including built in project management features, user access controls, static web hosting, and other useful features.
 
 GitHub is where the distributed part of Git gets really cool. 
@@ -24,7 +24,7 @@ When signing up, carefully consider which email address and user name you want t
 Your email and user name will be recorded with every commit.
 This helps ensure integrity and authenticity of the history.
 Most people keep their email public. 
-Alternatively, check GitHub's tips on how to [set up email privacy](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#about-commit-email-addresses){:target="_blank" rel="noopener"}. 
+Alternatively, check GitHub's tips on how to [set up email privacy](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#about-commit-email-addresses). 
 GitHub can provide a no-reply email address that can be found via your email settings on your profile.
 {% endcapture %}
 {% include card.html text=account header="Create a GitHub Account" %}
@@ -41,12 +41,12 @@ So, the best way to start learning about Git, is to create a new repository on G
 
 To create a new repository:
 
-1. Visit [GitHub](https://github.com){:target="_blank" rel="noopener"} and ensure you are logged in. If you are a new user, your home page might look pretty empty, but eventually will be filled with a feed of recent activity.
+1. Visit [GitHub](https://github.com) and ensure you are logged in. If you are a new user, your home page might look pretty empty, but eventually will be filled with a feed of recent activity.
 2. Click the "+" plus sign icon on the upper right of the nav bar and select "New repository" from the drop down menu. 
 3. Fill in the "Create a new repository" page:
     - "Owner" is you. Every repo is associated with an individual or organization.
     - "Repository name" is what you want to call this repo. It must be unique among the owner's repos. Naming conventions depend on your project type, but generally avoid spaces and weird characters.
-    - "Public" / "Private". Choose "Public". Anyone can visit a public repository--but that's okay! The entire web is public and GitHub is mostly open source code, i.e. public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository){:target="_blank" rel="noopener"} applied by the owner).
+    - "Public" / "Private". Choose "Public". Anyone can visit a public repository--but that's okay! The entire web is public and GitHub is mostly open source code, i.e. public repositories with code people can view and copy for free (following the [license](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository) applied by the owner).
     - Check the "Add a README file" option in the "Initialize this repository with" section. This makes it easier to get started.
 4. Finally, click the green "Create repository" button. 
 
@@ -110,8 +110,8 @@ Take a minute to explore the Issues, Projects (trello board-like), Wiki, Insight
 {% capture resources %}
 ### GitHub
 
-- [GitHub Guides](https://guides.github.com/){:target="_blank" rel="noopener"} provide handy reference, see [Hello World](https://guides.github.com/activities/hello-world/){:target="_blank" rel="noopener"} for an introduction.
-- [GitHub Learning Lab](https://lab.github.com/){:target="_blank" rel="noopener"} provides in depth interactive lessons.
+- [GitHub Guides](https://guides.github.com/) provide handy reference, see [Hello World](https://guides.github.com/activities/hello-world/) for an introduction.
+- [GitHub Learning Lab](https://lab.github.com/) provides in depth interactive lessons.
 - [GitHub Education](https://education.github.com/) provides resources and benefits for educational use of GitHub.
 
 ### GitHub Organizations
@@ -135,12 +135,12 @@ Markdown is a standard to simplify writing content for the web designed to be ea
 GitHub Markdown Flavor can be used any where on GitHub to format your writing in comments, Issues, and `.md` files.
 The basics are intuitive, much like formatting a plain text email.
 
-- [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/){:target="_blank" rel="noopener"}
-- [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax){:target="_blank" rel="noopener"}
+- [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/)
+- [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ### Alternatives
 
-*Please note* that there are other version control systems ([Subversion](https://subversion.apache.org/){:target="_blank" rel="noopener"}, [mercurial](https://www.mercurial-scm.org/){:target="_blank" rel="noopener"}, etc) and repository hosts ([Bitbucket](https://bitbucket.org/){:target="_blank" rel="noopener"}, [Gitlab](https://about.gitlab.com/gitlab-com/){:target="_blank" rel="noopener"}, etc) out there...
+*Please note* that there are other version control systems ([Subversion](https://subversion.apache.org/), [mercurial](https://www.mercurial-scm.org/), etc) and repository hosts ([Bitbucket](https://bitbucket.org/), [Gitlab](https://about.gitlab.com/gitlab-com/), etc) out there...
 However, Git and GitHub are by far the most popular.
 {% endcapture %}
 {% include card.html text=resources header="Resources" %}
